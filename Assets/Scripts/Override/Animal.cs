@@ -18,4 +18,17 @@ namespace Override
         }
     }
 
+    //자식 클래스
+    public class Cat : Animal
+    {
+        public override void Eat()
+        {
+            //부모 메서드에서 구현된 내용을 모두 실행하고
+            base.Eat();
+
+            //새로 추가된 내용을 실행하라
+            Debug.Log("고양이가 밥을 먹는다");
+        }
+    }
+
 }
