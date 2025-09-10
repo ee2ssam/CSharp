@@ -24,7 +24,7 @@ public class VarDemo : MonoBehaviour
         Debug.Log(version);
         Debug.Log(version.GetType());
 
-        var number = 1;         //1값을 보고 number란 변수의 타입을 int형으로 절정
+        var number = 1;         //1값을 보고 number란 변수의 타입을 int형으로 결정
         Debug.Log(number);
         Debug.Log(number.GetType());
 
