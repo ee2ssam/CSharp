@@ -15,8 +15,15 @@ public class ArrayTwoDescrition : MonoBehaviour
         //배열의 길이
         Debug.Log($"배열의 길이: {intArray.Length}");
 
-        //[3]배열의 요소들 출력
-
-
+        //[3]배열의 요소들 출력 : intArray[0].Length, intArray[1].Length
+        for (int i = 0; i < intArray.Length; i++)
+        {
+            //Debug.Log($"intArray[{i}] : {intArray[i].Length}");
+            for (int j = 0; j < intArray[i].Length; j++)
+            {
+                Debug.Log($"intArray[{i}][{j}] : {intArray[i][j]}");
+            }
+            Debug.Log("=====================");
+        }
     }
 }
