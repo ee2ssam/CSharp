@@ -432,7 +432,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1164214773
+--- !u!1 &1881858871
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -440,8 +440,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1164214775}
-  - component: {fileID: 1164214774}
+  - component: {fileID: 1881858873}
+  - component: {fileID: 1881858872}
+  - component: {fileID: 1881858874}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -449,25 +450,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1164214774
+--- !u!114 &1881858872
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164214773}
-  m_Enabled: 1
+  m_GameObject: {fileID: 1881858871}
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 667f903597f9eb046b6fb8670085ba8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 3be715fd22cebb34199e0fb36204906f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StackOfType
---- !u!4 &1164214775
+  m_EditorClassIdentifier: Assembly-CSharp::NameSpaceDemo
+--- !u!4 &1881858873
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164214773}
+  m_GameObject: {fileID: 1881858871}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -476,6 +477,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1881858874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881858871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ebe3129d7ea0af498b28af11c68b58d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NameSpaceNote
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -483,4 +496,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1164214775}
+  - {fileID: 1881858873}
