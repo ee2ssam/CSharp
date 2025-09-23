@@ -4,7 +4,7 @@ using OverrideDemoTest;
 namespace MethodOverride
 {
     //MethodOverride(메서드 재정의)
-    //부모 클래스의 메서드를 재정의(다시 정의, 선언)해서 사용하기
+    //상속을 받은 자식클래스가 부모 클래스의 메서드를 재정의(다시 정의, 선언)해서 사용하기
     public class MethodOverrideDemo : MonoBehaviour
     {
         // Start is called once before the first execution of Update after the MonoBehaviour is created

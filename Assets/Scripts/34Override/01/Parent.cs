@@ -16,8 +16,8 @@ namespace OverrideDemoTest
     public class Child : Parent
     {
         //[1] 재정의 - 그냥 가져다가 재정의 한다
-        //public void Say() => Debug.Log("자식 안녕하세요");
-        public new void Say() => Debug.Log("자식 안녕하세요");
+        public void Say() => Debug.Log("자식 안녕하세요");
+        //public new void Say() => Debug.Log("자식 안녕하세요");
 
         //[2] 재정의 - new 키워드를 사용한다
         public new void Run() => Debug.Log("자식 달린다");
